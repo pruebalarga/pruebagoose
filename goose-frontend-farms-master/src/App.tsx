@@ -41,7 +41,7 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Menu>
         <Suspense fallback={<PageLoader />}>
-          <Switch>
+        <Switch>
             <Route path="/" exact>
               <Home />
             </Route>
